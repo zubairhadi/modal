@@ -79,7 +79,7 @@ const Modal = ({ setIsModalOpen, setModalOpenBackground }) => {
               <h3>Email Address:</h3>
             </label>
             <input
-              type="email"
+              type="test@example.com"
               name="email"
               value={formData.email}
               onChange={handleChange}
@@ -90,7 +90,7 @@ const Modal = ({ setIsModalOpen, setModalOpenBackground }) => {
               <h3>Phone Number:</h3>
             </label>
             <input
-              type="phone"
+              type="1234567890"
               name="phone"
               value={formData.phone}
               onChange={handleChange}
@@ -101,7 +101,7 @@ const Modal = ({ setIsModalOpen, setModalOpenBackground }) => {
               <h3>Date of Birth:</h3>
             </label>
             <input
-              type="Date"
+              type="2000-01-01"
               name="dob"
               value={formData.dob}
               onChange={handleChange}
