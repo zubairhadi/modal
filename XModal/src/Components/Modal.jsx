@@ -52,7 +52,7 @@ const Modal = ({ setIsModalOpen, setModalOpenBackground }) => {
   };
 
   return (
-    <div className="modalBackground" onClick={handleBackgroundClick}>
+    <div className="modalgit " onClick={handleBackgroundClick}>
       <div
         className="modalContainer"
         onClick={(e) => {
